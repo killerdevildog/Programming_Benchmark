@@ -1,0 +1,47 @@
+# Build artifacts
+bin/
+build/
+
+# Benchmark results
+results_*.md
+results_*.json
+
+# Compiled object files
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.ali
+*.hi
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Cython generated files
+*.c
+!test_src/**/*.c
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
