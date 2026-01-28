@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/benchmark_tool.dir/link.d CMakeFiles/benchmark_tool.dir/src/benchmark.cpp.o -o /home/shadowbane/Documents/GIT/Programming_Benchmark/bin/benchmark  -lstdc++fs
